@@ -1,5 +1,5 @@
-New log file opened at Thu Jul 16 22:11:15 EEST 2015 by 12233@Tamperes-MacBook-Pro.local
-jvm 12233@Tamperes-MacBook-Pro.local
+New log file opened at Thu Jul 16 22:40:47 EEST 2015 by 12356@Tamperes-MacBook-Pro.local
+jvm 12356@Tamperes-MacBook-Pro.local
 jvm vmName=Java HotSpot(TM) 64-Bit Server VM vmVendor=Oracle Corporation vmVersion=25.25-b02
 jvm specName=Java Virtual Machine Specification specVendor=Oracle Corporation specVersion=1.8
 jvm arguments: [-Xms256m, -Xmx1024m, -XX:MetaspaceSize=64m, -XX:MaxMetaspaceSize=256m]
@@ -27,7 +27,7 @@ sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.Jvm
   :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
 [Loading] Done in /Users/Messi/Development/activator-1.3.5-minimal/catDB/project, returning: (catdb-build)
 Loading project definition from /Users/Messi/Development/activator-1.3.5-minimal/catDB/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2e7d1dfd, check cycles: false
+Running task... Cancel: sbt.TaskCancellationStrategy$Null$@42c45c74, check cycles: false
 
 Initial source changes: 
 	removed:Set()
@@ -69,125 +69,7 @@ Set current project to catDB (in build file:/Users/Messi/Development/activator-1
 > server-handle-next-server-request
 > {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:discoveredMainClasses
 Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@2ac1e7f1, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 3 s, completed Jul 16, 2015 10:11:31 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@4f3d3381, check cycles: false
-Total time: 0 s, completed Jul 16, 2015 10:11:31 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:discoveredMainClasses
-Evaluating tasks: compile:discoveredMainClasses
-Running task... Cancel: sbt.server.ServerTaskCancellation@1a04d6ed, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Total time: 1 s, completed Jul 16, 2015 10:11:33 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:mainClass
-Evaluating tasks: compile:mainClass
-Running task... Cancel: sbt.server.ServerTaskCancellation@73ebe464, check cycles: false
-Total time: 0 s, completed Jul 16, 2015 10:11:33 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> clean
-Evaluating tasks: *:clean
-Running task... Cancel: sbt.server.ServerTaskCancellation@56583c27, check cycles: false
-Other repositories:
-Default repositories:
-Using inline dependencies specified in Scala.
-Total time: 1 s, completed Jul 16, 2015 10:11:47 PM
-> server-post-command-cleanup
-> server-handle-next-server-request
-> reload
-[Loading] Scanning directory /Users/Messi/Development/activator-1.3.5-minimal/catDB/project
-[Loading] Found non-root projects 
-[Loading] Done in /Users/Messi/Development/activator-1.3.5-minimal/catDB/project, returning: ()
-deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))))
-  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.JUnitXmlReportPlugin)
-sorting: ns: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-  :: sorting:: found: List(sbt.plugins.CorePlugin) not found List(sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin) not found List(sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin) not found List(sbt.plugins.JUnitXmlReportPlugin)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin) not found List()
-  :: sorted deduced result: List(sbt.plugins.CorePlugin, sbt.plugins.IvyPlugin, sbt.plugins.JvmPlugin, sbt.plugins.JUnitXmlReportPlugin)
-[Loading] Done in /Users/Messi/Development/activator-1.3.5-minimal/catDB/project, returning: (catdb-build)
-Loading project definition from /Users/Messi/Development/activator-1.3.5-minimal/catDB/project
-Running task... Cancel: sbt.TaskCancellationStrategy$Null$@2e7d1dfd, check cycles: false
-
-Initial source changes: 
-	removed:Set()
-	added: Set()
-	modified: Set()
-Removed products: Set()
-External API changes: API Changes: Set()
-Modified binary dependencies: Set()
-Initial directly invalidated sources: Set()
-
-Sources indirectly invalidated by:
-	product: Set()
-	binary dep: Set()
-	external source: Set()
-All initially invalidated sources: Set()
-
-Copy resource mappings: 
-	
-[Loading] Scanning directory /Users/Messi/Development/activator-1.3.5-minimal/catDB
-[Loading] Found root project root w/ remaining 
-deducing auto plugins based on known facts Set(Atom(play.sbt.PlayJava), Atom(play.ebean.sbt.PlayEbean), Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.forkrun.PlayForkRun),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.routes.RoutesCompiler))), Clause(Atom(play.sbt.Play),Set(Atom(play.twirl.sbt.SbtTwirl))), Clause(Atom(play.sbt.Play),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(play.sbt.PlayAkkaHttpServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayJava),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayLayoutPlugin),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayNettyServer),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.PlayScala),Set(Atom(play.sbt.Play))), Clause(Atom(play.sbt.routes.RoutesCompiler),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.twirl.sbt.SbtTwirl),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.AkkaAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.docker.DockerPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.archetypes.jar.LauncherJarPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianDeployPlugin),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.DebianPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.debian.JDebPackaging),Set(Atom(com.typesafe.sbt.packager.debian.DebianPlugin))), Clause(Atom(com.typesafe.sbt.packager.docker.DockerPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerDeployPlugin),Set(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.JavaAppPackaging))), Clause(Atom(com.typesafe.sbt.packager.jdkpackager.JDKPackagerPlugin),Set(Atom(com.typesafe.sbt.packager.archetypes.jar.ClasspathJarPlugin))), Clause(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmDeployPlugin),Set(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin))), Clause(Atom(com.typesafe.sbt.packager.rpm.RpmPlugin),Set(Atom(com.typesafe.sbt.packager.linux.LinuxPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalDeployPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin),Set(Atom(com.typesafe.sbt.SbtNativePackager))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsDeployPlugin),Set(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin))), Clause(Atom(com.typesafe.sbt.packager.windows.WindowsPlugin),Set(Atom(com.typesafe.sbt.packager.universal.UniversalPlugin))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(sbt.plugins.BackgroundRunPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.less.SbtLess),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.jshint.SbtJSHint),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.rjs.SbtRjs),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.sbt.digest.SbtDigest),Set(Atom(com.typesafe.sbt.web.SbtWeb))), Clause(Atom(com.typesafe.sbt.mocha.SbtMocha),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(play.ebean.sbt.PlayEbean),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(And(Set(Atom(sbt.plugins.BackgroundRunPlugin), Atom(play.sbt.Play), Atom(sbt.plugins.SerializersPlugin))),Set(Atom(play.sbt.forkrun.PlayForkRun))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayLayoutPlugin))), Clause(Atom(play.sbt.Play),Set(Atom(play.sbt.PlayNettyServer))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.jse.SbtJsEngine))), Clause(Atom(com.typesafe.sbt.jse.SbtJsEngine),Set(Atom(com.typesafe.sbt.jse.SbtJsTask))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.BackgroundRunPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.InteractionServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SendEventServicePlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.SerializersPlugin))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.coffeescript.SbtCoffeeScript))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.less.SbtLess))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.jshint.SbtJSHint))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.rjs.SbtRjs))), Clause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(com.typesafe.sbt.digest.SbtDigest))), Clause(Atom(com.typesafe.sbt.jse.SbtJsTask),Set(Atom(com.typesafe.sbt.mocha.SbtMocha))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.play.sbt.enhancer.PlayEnhancer)))))
-  :: deduced result: Matched(sbt.plugins.CorePlugin,play.ebean.sbt.PlayEbean,play.sbt.PlayJava,com.typesafe.play.sbt.enhancer.PlayEnhancer,sbt.plugins.InteractionServicePlugin,sbt.plugins.SendEventServicePlugin,play.sbt.Play,sbt.plugins.SerializersPlugin,sbt.plugins.IvyPlugin,com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging,play.twirl.sbt.SbtTwirl,sbt.plugins.JvmPlugin,play.sbt.PlayNettyServer,play.sbt.PlayLayoutPlugin,play.sbt.routes.RoutesCompiler,com.typesafe.sbt.jse.SbtJsTask,com.typesafe.sbt.jshint.SbtJSHint,com.typesafe.sbt.packager.archetypes.JavaAppPackaging,sbt.plugins.JUnitXmlReportPlugin,com.typesafe.sbt.mocha.SbtMocha,com.typesafe.sbt.less.SbtLess,com.typesafe.sbt.rjs.SbtRjs,com.typesafe.sbt.jse.SbtJsEngine,com.typesafe.sbt.coffeescript.SbtCoffeeScript,sbt.plugins.BackgroundRunPlugin,com.typesafe.sbt.packager.rpm.RpmPlugin,com.typesafe.sbt.packager.windows.WindowsPlugin,com.typesafe.sbt.web.SbtWeb,com.typesafe.sbt.packager.docker.DockerPlugin,play.sbt.forkrun.PlayForkRun,com.typesafe.sbt.packager.debian.DebianPlugin,com.typesafe.sbt.digest.SbtDigest,com.typesafe.sbt.packager.universal.UniversalPlugin,com.typesafe.sbt.packager.linux.LinuxPlugin,com.typesafe.sbt.SbtNativePackager)
-sorting: ns: List(sbt.plugins.CorePlugin, play.ebean.sbt.PlayEbean, play.sbt.PlayJava, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.sbt.SbtNativePackager)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager) not found List(play.ebean.sbt.PlayEbean, play.sbt.PlayJava, com.typesafe.play.sbt.enhancer.PlayEnhancer, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, play.sbt.Play, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.universal.UniversalPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin) not found List(play.ebean.sbt.PlayEbean, play.sbt.PlayJava, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, sbt.plugins.JvmPlugin, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.docker.DockerPlugin, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.linux.LinuxPlugin)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin) not found List(play.ebean.sbt.PlayEbean, play.sbt.PlayJava, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.twirl.sbt.SbtTwirl, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.routes.RoutesCompiler, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, sbt.plugins.JUnitXmlReportPlugin, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.packager.debian.DebianPlugin, com.typesafe.sbt.digest.SbtDigest)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin) not found List(play.ebean.sbt.PlayEbean, play.sbt.PlayJava, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun, com.typesafe.sbt.digest.SbtDigest)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest) not found List(play.sbt.PlayJava, play.sbt.Play, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jse.SbtJsTask, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask) not found List(play.sbt.PlayJava, play.sbt.Play, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.forkrun.PlayForkRun)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript) not found List(play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
-  :: sorting:: found: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun) not found List()
-  :: sorted deduced result: List(sbt.plugins.CorePlugin, com.typesafe.sbt.SbtNativePackager, sbt.plugins.InteractionServicePlugin, sbt.plugins.SendEventServicePlugin, sbt.plugins.SerializersPlugin, sbt.plugins.IvyPlugin, com.typesafe.sbt.packager.universal.UniversalPlugin, sbt.plugins.JvmPlugin, com.typesafe.sbt.packager.windows.WindowsPlugin, com.typesafe.sbt.packager.docker.DockerPlugin, com.typesafe.sbt.packager.linux.LinuxPlugin, com.typesafe.play.sbt.enhancer.PlayEnhancer, play.twirl.sbt.SbtTwirl, play.sbt.routes.RoutesCompiler, sbt.plugins.JUnitXmlReportPlugin, sbt.plugins.BackgroundRunPlugin, com.typesafe.sbt.packager.rpm.RpmPlugin, com.typesafe.sbt.web.SbtWeb, com.typesafe.sbt.packager.debian.DebianPlugin, play.ebean.sbt.PlayEbean, com.typesafe.sbt.packager.archetypes.JavaAppPackaging, com.typesafe.sbt.jse.SbtJsEngine, com.typesafe.sbt.digest.SbtDigest, com.typesafe.sbt.packager.archetypes.JavaServerAppPackaging, com.typesafe.sbt.jse.SbtJsTask, play.sbt.Play, com.typesafe.sbt.jshint.SbtJSHint, com.typesafe.sbt.mocha.SbtMocha, com.typesafe.sbt.less.SbtLess, com.typesafe.sbt.rjs.SbtRjs, com.typesafe.sbt.coffeescript.SbtCoffeeScript, play.sbt.PlayJava, play.sbt.PlayNettyServer, play.sbt.PlayLayoutPlugin, play.sbt.forkrun.PlayForkRun)
-[Loading] Done in /Users/Messi/Development/activator-1.3.5-minimal/catDB, returning: (root)
-Set current project to catDB (in build file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/)
-Reapplying settings...
-Set current project to catDB (in build file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/)
-> server-post-command-cleanup
-> server-handle-next-server-request
-> backgroundRun
-Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@e38a612, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@468ba193, check cycles: false
 Read from stdout: Updating {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root...
 Updating {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root...
 Other repositories:
@@ -202,7 +84,7 @@ resolving dependencies for configuration 'compile'
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.scala-lang#scala-library;2.11.6 [compile->default(compile)]
 Read from stdout: Resolving org.scala-lang#scala-library;2.11.6 ...
 Resolving org.scala-lang#scala-library;2.11.6 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@712d8dde
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@4461a136
 sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6
 	found org.scala-lang#scala-library;2.11.6 in sbt-chain
 	[2.11.6] org.scala-lang#scala-library;2.11.6
@@ -669,7 +551,7 @@ downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-as
 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
 	public: downloading https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom.sha1
 sha1 OK for https://repo1.maven.org/maven2/com/google/inject/extensions/guice-assistedinject/4.0/guice-assistedinject-4.0.pom
-	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (231ms)
+	[SUCCESSFUL ] com.google.inject.extensions#guice-assistedinject;4.0!guice-assistedinject.pom(pom.original) (266ms)
 Read from stdout: Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 Resolving com.google.inject.extensions#extensions-parent;4.0 ...
 sbt-chain: Checking cache for: dependency: com.google.inject.extensions#extensions-parent;4.0 {}
@@ -1254,7 +1136,7 @@ sbt-chain: module revision found in cache: com.typesafe.play#play-netty-utils;2.
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.4.2 [compile->default(compile)]
 Read from stdout: Resolving com.typesafe.play#play-java_2.11;2.4.2 ...
 Resolving com.typesafe.play#play-java_2.11;2.4.2 ...
-sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@352ec529
+sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@17059611
 sbt-chain: module revision found in cache: com.typesafe.play#play-java_2.11;2.4.2
 	found com.typesafe.play#play-java_2.11;2.4.2 in sbt-chain
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java_2.11;2.4.2 [compile->runtime]
@@ -1861,6 +1743,29 @@ sbt-chain: module revision found in cache: commons-logging#commons-logging;1.1.1
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.2 [compile->master]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+Read from stdout: Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+sbt-chain: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
+Read from stdout: Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+Resolving org.postgresql#postgresql;9.4-1201-jdbc41 ...
+sbt-chain-delegate: Checking cache for: dependency: org.postgresql#postgresql;9.4-1201-jdbc41 {compile=[default(compile)]}
+		tried /Users/Messi/.ivy2/local/org.postgresql/postgresql/9.4-1201-jdbc41/ivys/ivy.xml
+	local: no ivy file found for org.postgresql#postgresql;9.4-1201-jdbc41
+		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom
+	public: found md file for org.postgresql#postgresql;9.4-1201-jdbc41
+		=> https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom (9.4-1201-jdbc41)
+downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom ...
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom.sha1
+sha1 OK for https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.pom
+	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.pom(pom.original) (179ms)
+		tried /Users/Messi/.ivy2/local/org.postgresql/postgresql/9.4-1201-jdbc41/jars/postgresql.jar
+		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+	found org.postgresql#postgresql;9.4-1201-jdbc41 in public
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 resolving dependencies for configuration 'runtime'
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [runtime]
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [compile]
@@ -2686,6 +2591,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.2 [compile->master]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 resolving dependencies for configuration 'test'
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [test]
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [runtime]
@@ -3512,6 +3421,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.2 [compile->master]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->default(compile)]
 Read from stdout: Resolving com.typesafe.play#play-test_2.11;2.4.2 ...
 Resolving com.typesafe.play#play-test_2.11;2.4.2 ...
@@ -5278,6 +5191,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.2 [compile->master]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [optional]
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [provided]
 resolving dependencies for configuration 'runtime-internal'
@@ -6106,6 +6023,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.2 [compile->master]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [optional]
 resolving dependencies for configuration 'test-internal'
 == resolving dependencies for catdb#catdb_2.11;1.0-SNAPSHOT [test-internal]
@@ -6934,6 +6855,10 @@ excluding dependency: org.springframework#spring-core;4.1.6.RELEASE {compile=[co
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->runtime(*)]
 == resolving dependencies com.typesafe.play#play-java-ws_2.11;2.4.2->oauth.signpost#signpost-commonshttp4;1.2.1.2 [runtime->compile]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-java-ws_2.11;2.4.2 [compile->master]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->default(compile)]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->runtime]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->compile]
+== resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->org.postgresql#postgresql;9.4-1201-jdbc41 [compile->master]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->default(compile)]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->runtime]
 == resolving dependencies catdb#catdb_2.11;1.0-SNAPSHOT->com.typesafe.play#play-test_2.11;2.4.2 [test->compile]
@@ -8714,6 +8639,14 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] com.typesafe.play#play-java-jdbc_2.11;2.4.2!play-java-jdbc_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-cache_2.11;2.4.2!play-cache_2.11.jar
 	[NOT REQUIRED] com.typesafe.play#play-java-ws_2.11;2.4.2!play-java-ws_2.11.jar
+		tried https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+Read from stdout: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar ...
+downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar ...
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+	public: downloading https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar.sha1
+sha1 OK for https://repo1.maven.org/maven2/org/postgresql/postgresql/9.4-1201-jdbc41/postgresql-9.4-1201-jdbc41.jar
+Read from stdout: 	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar (742ms)
+	[SUCCESSFUL ] org.postgresql#postgresql;9.4-1201-jdbc41!postgresql.jar (742ms)
 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.4!commons-lang3.jar
 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
 	[NOT REQUIRED] com.typesafe.play#play-jdbc-evolutions_2.11;2.4.0!play-jdbc-evolutions_2.11.jar
@@ -8866,7 +8799,7 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-:: resolution report :: resolve 15765ms :: artifacts dl 628ms
+:: resolution report :: resolve 18815ms :: artifacts dl 1581ms
 	report for catdb#catdb_2.11;1.0-SNAPSHOT compile produced in /Users/Messi/Development/activator-1.3.5-minimal/catDB/target/resolution-cache/reports/catdb-catdb_2.11-compile.xml
 	report for catdb#catdb_2.11;1.0-SNAPSHOT runtime produced in /Users/Messi/Development/activator-1.3.5-minimal/catDB/target/resolution-cache/reports/catdb-catdb_2.11-runtime.xml
 	report for catdb#catdb_2.11;1.0-SNAPSHOT test produced in /Users/Messi/Development/activator-1.3.5-minimal/catDB/target/resolution-cache/reports/catdb-catdb_2.11-test.xml
@@ -8881,29 +8814,135 @@ all callers are evicted for commons-logging#commons-logging;1.1.1: evicting too
 	report for catdb#catdb_2.11;1.0-SNAPSHOT pom produced in /Users/Messi/Development/activator-1.3.5-minimal/catDB/target/resolution-cache/reports/catdb-catdb_2.11-pom.xml
 	report for catdb#catdb_2.11;1.0-SNAPSHOT scala-tool produced in /Users/Messi/Development/activator-1.3.5-minimal/catDB/target/resolution-cache/reports/catdb-catdb_2.11-scala-tool.xml
 	report for catdb#catdb_2.11;1.0-SNAPSHOT fork-run produced in /Users/Messi/Development/activator-1.3.5-minimal/catDB/target/resolution-cache/reports/catdb-catdb_2.11-fork-run.xml
-	resolve done (15765ms resolve - 628ms download)
+	resolve done (18815ms resolve - 1581ms download)
 Read from stdout: Done updating.
 Done updating.
-Total time: 17 s, completed Jul 16, 2015 10:12:20 PM
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 24 s, completed Jul 16, 2015 10:41:27 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
-> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/*:playForkConfig
-Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@1efb946c, check cycles: false
-No dynamic serializer found (using manifest play.forkrun.protocol.ForkConfig) for ForkConfig(/Users/Messi/Development/activator-1.3.5-minimal/catDB,List(),List(/Users/Messi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar, /Users/Messi/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.2.jar, /Users/Messi/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar, /Users/Messi/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar, /Users/Messi/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar, /Users/Messi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.2.jar, /Users/Messi/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar, /Users/Messi/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar, /Users/Messi/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar, /Users/Messi/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar, /Users/Messi/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar, /Users/Messi/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar, /Users/Messi/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar, /Users/Messi/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar, /Users/Messi/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar, /Users/Messi/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar, /Users/Messi/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar, /Users/Messi/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar, /Users/Messi/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar, /Users/Messi/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar, /Users/Messi/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar, /Users/Messi/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar, /Users/Messi/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar, /Users/Messi/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar, /Users/Messi/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar, /Users/Messi/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar, /Users/Messi/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar, /Users/Messi/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar, /Users/Messi/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar, /Users/Messi/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar, /Users/Messi/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar, /Users/Messi/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar, /Users/Messi/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar, /Users/Messi/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar, /Users/Messi/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/io.netty/netty/bundles/netty-3.10.3.Final.jar, /Users/Messi/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar, /Users/Messi/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar, /Users/Messi/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar, /Users/Messi/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar, /Users/Messi/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar, /Users/Messi/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar),List((public/,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/web/public/main)),List(/Users/Messi/.ivy2/cache/com.typesafe.play/play-omnidoc_2.11/jars/play-omnidoc_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-docs_2.11/jars/play-docs_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.2.jar, /Users/Messi/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar, /Users/Messi/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar, /Users/Messi/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar, /Users/Messi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.2.jar, /Users/Messi/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar, /Users/Messi/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar, /Users/Messi/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar, /Users/Messi/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar, /Users/Messi/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar, /Users/Messi/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar, /Users/Messi/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar, /Users/Messi/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar, /Users/Messi/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar, /Users/Messi/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar, /Users/Messi/.ivy2/cache/io.netty/netty/bundles/netty-3.10.3.Final.jar, /Users/Messi/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-doc_2.11/jars/play-doc_2.11-1.2.2.jar, /Users/Messi/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.4.0.jar, /Users/Messi/.ivy2/cache/org.parboiled/parboiled-java/bundles/parboiled-java-1.1.5.jar, /Users/Messi/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.5.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar, /Users/Messi/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar),Some(/Users/Messi/.ivy2/cache/com.typesafe.play/play-omnidoc_2.11/jars/play-omnidoc_2.11-2.4.2.jar),List(),9000,0.0.0.0,DefaultWatchService,List(/Users/Messi/Development/activator-1.3.5-minimal/catDB/public, /Users/Messi/Development/activator-1.3.5-minimal/catDB/conf, /Users/Messi/Development/activator-1.3.5-minimal/catDB/app),/Users/Messi/Development/activator-1.3.5-minimal/catDB/target,500,root/playForkNotifyStart,root/playForkReload,300000,play.core.server.DevServerStart)
-Total time: 1 s, completed Jul 16, 2015 10:12:30 PM
+> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@3bdda43d, check cycles: false
+Total time: 0 s, completed Jul 16, 2015 10:41:27 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:discoveredMainClasses
+Evaluating tasks: compile:discoveredMainClasses
+Running task... Cancel: sbt.server.ServerTaskCancellation@ca11eed, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Total time: 1 s, completed Jul 16, 2015 10:41:28 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/compile:mainClass
+Evaluating tasks: compile:mainClass
+Running task... Cancel: sbt.server.ServerTaskCancellation@57aaf2f7, check cycles: false
+Total time: 0 s, completed Jul 16, 2015 10:41:28 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > backgroundRun
 Evaluating tasks: compile:backgroundRun
-Running task... Cancel: sbt.server.ServerTaskCancellation@32e148a6, check cycles: false
-Total time: 0 s, completed Jul 16, 2015 10:14:29 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@2919d79d, check cycles: false
+Total time: 1 s, completed Jul 16, 2015 10:46:03 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/*:playForkConfig
 Evaluating tasks: *:playForkConfig
-Running task... Cancel: sbt.server.ServerTaskCancellation@42976b5d, check cycles: false
-No dynamic serializer found (using manifest play.forkrun.protocol.ForkConfig) for ForkConfig(/Users/Messi/Development/activator-1.3.5-minimal/catDB,List(),List(/Users/Messi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-enhancer/jars/play-enhancer-1.1.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar, /Users/Messi/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-ebean_2.11/jars/play-ebean_2.11-1.0.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-java-jdbc_2.11/jars/play-java-jdbc_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-jdbc_2.11/jars/play-jdbc_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-jdbc-api_2.11/jars/play-jdbc-api_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.2.jar, /Users/Messi/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar, /Users/Messi/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar, /Users/Messi/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar, /Users/Messi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.2.jar, /Users/Messi/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar, /Users/Messi/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar, /Users/Messi/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar, /Users/Messi/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar, /Users/Messi/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar, /Users/Messi/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar, /Users/Messi/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar, /Users/Messi/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar, /Users/Messi/.ivy2/cache/com.jolbox/bonecp/bundles/bonecp-0.8.0.RELEASE.jar, /Users/Messi/.ivy2/cache/com.zaxxer/HikariCP/bundles/HikariCP-2.3.7.jar, /Users/Messi/.ivy2/cache/com.h2database/h2/jars/h2-1.4.187.jar, /Users/Messi/.ivy2/cache/tyrex/tyrex/jars/tyrex-1.0.1.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-java_2.11/jars/play-java_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-java8-compat_2.11/bundles/scala-java8-compat_2.11-0.3.0.jar, /Users/Messi/.ivy2/cache/org.yaml/snakeyaml/bundles/snakeyaml-1.15.jar, /Users/Messi/.ivy2/cache/org.hibernate/hibernate-validator/jars/hibernate-validator-5.0.3.Final.jar, /Users/Messi/.ivy2/cache/javax.validation/validation-api/jars/validation-api-1.1.0.Final.jar, /Users/Messi/.ivy2/cache/com.fasterxml/classmate/bundles/classmate-1.0.0.jar, /Users/Messi/.ivy2/cache/org.jboss.logging/jboss-logging/jars/jboss-logging-3.2.1.Final.jar, /Users/Messi/.ivy2/cache/org.springframework/spring-context/jars/spring-context-4.1.6.RELEASE.jar, /Users/Messi/.ivy2/cache/org.springframework/spring-core/jars/spring-core-4.1.6.RELEASE.jar, /Users/Messi/.ivy2/cache/org.springframework/spring-beans/jars/spring-beans-4.1.6.RELEASE.jar, /Users/Messi/.ivy2/cache/org.reflections/reflections/jars/reflections-0.9.9.jar, /Users/Messi/.ivy2/cache/com.google.guava/guava/bundles/guava-18.0.jar, /Users/Messi/.ivy2/cache/com.google.code.findbugs/annotations/jars/annotations-2.0.1.jar, /Users/Messi/.ivy2/cache/net.jodah/typetools/bundles/typetools-0.4.1.jar, /Users/Messi/.ivy2/cache/com.google.code.findbugs/jsr305/jars/jsr305-2.0.3.jar, /Users/Messi/.ivy2/cache/org.apache.tomcat/tomcat-servlet-api/jars/tomcat-servlet-api-8.0.21.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-jdbc-evolutions_2.11/jars/play-jdbc-evolutions_2.11-2.4.0.jar, /Users/Messi/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm/jars/avaje-ebeanorm-4.6.2.jar, /Users/Messi/.ivy2/cache/javax.persistence/persistence-api/jars/persistence-api-1.0.jar, /Users/Messi/.ivy2/cache/org.avaje.ebeanorm/avaje-ebeanorm-agent/jars/avaje-ebeanorm-agent-4.5.3.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/io.netty/netty/bundles/netty-3.10.3.Final.jar, /Users/Messi/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-cache_2.11/jars/play-cache_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/net.sf.ehcache/ehcache-core/jars/ehcache-core-2.6.11.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-java-ws_2.11/jars/play-java-ws_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-ws_2.11/jars/play-ws_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.ning/async-http-client/jars/async-http-client-1.9.21.jar, /Users/Messi/.ivy2/cache/oauth.signpost/signpost-core/jars/signpost-core-1.2.1.2.jar, /Users/Messi/.ivy2/cache/oauth.signpost/signpost-commonshttp4/jars/signpost-commonshttp4-1.2.1.2.jar, /Users/Messi/.ivy2/cache/org.apache.httpcomponents/httpcore/jars/httpcore-4.0.1.jar, /Users/Messi/.ivy2/cache/org.apache.httpcomponents/httpclient/jars/httpclient-4.0.1.jar, /Users/Messi/.ivy2/cache/commons-logging/commons-logging/jars/commons-logging-1.1.1.jar),List((public/,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/web/public/main)),List(/Users/Messi/.ivy2/cache/com.typesafe.play/play-omnidoc_2.11/jars/play-omnidoc_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.6.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-docs_2.11/jars/play-docs_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-server_2.11/jars/play-netty-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-server_2.11/jars/play-server_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play_2.11/jars/play_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/build-link/jars/build-link-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-exceptions/jars/play-exceptions-2.4.2.jar, /Users/Messi/.ivy2/cache/org.javassist/javassist/bundles/javassist-3.19.0-GA.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-iteratees_2.11/jars/play-iteratees_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/org.scala-stm/scala-stm_2.11/jars/scala-stm_2.11-0.7.jar, /Users/Messi/.ivy2/cache/com.typesafe/config/bundles/config-1.3.0.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-json_2.11/jars/play-json_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-functional_2.11/jars/play-functional_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-datacommons_2.11/jars/play-datacommons_2.11-2.4.2.jar, /Users/Messi/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.8.1.jar, /Users/Messi/.ivy2/cache/org.joda/joda-convert/jars/joda-convert-1.7.jar, /Users/Messi/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.6.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/bundles/jackson-datatype-jdk8-2.5.4.jar, /Users/Messi/.ivy2/cache/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/bundles/jackson-datatype-jsr310-2.5.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-netty-utils/jars/play-netty-utils-2.4.2.jar, /Users/Messi/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jul-to-slf4j/jars/jul-to-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/org.slf4j/jcl-over-slf4j/jars/jcl-over-slf4j-1.7.12.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/twirl-api_2.11/jars/twirl-api_2.11-1.1.1.jar, /Users/Messi/.ivy2/cache/org.apache.commons/commons-lang3/jars/commons-lang3-3.4.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.1.3.jar, /Users/Messi/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.1.3.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-actor_2.11/jars/akka-actor_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.11/jars/akka-slf4j_2.11-2.3.11.jar, /Users/Messi/.ivy2/cache/commons-codec/commons-codec/jars/commons-codec-1.10.jar, /Users/Messi/.ivy2/cache/xerces/xercesImpl/jars/xercesImpl-2.11.0.jar, /Users/Messi/.ivy2/cache/xml-apis/xml-apis/jars/xml-apis-1.4.01.jar, /Users/Messi/.ivy2/cache/javax.transaction/jta/jars/jta-1.1.jar, /Users/Messi/.ivy2/cache/com.google.inject/guice/jars/guice-4.0.jar, /Users/Messi/.ivy2/cache/javax.inject/javax.inject/jars/javax.inject-1.jar, /Users/Messi/.ivy2/cache/aopalliance/aopalliance/jars/aopalliance-1.0.jar, /Users/Messi/.ivy2/cache/com.google.guava/guava/bundles/guava-16.0.1.jar, /Users/Messi/.ivy2/cache/com.google.inject.extensions/guice-assistedinject/jars/guice-assistedinject-4.0.jar, /Users/Messi/.ivy2/cache/io.netty/netty/bundles/netty-3.10.3.Final.jar, /Users/Messi/.ivy2/cache/com.typesafe.netty/netty-http-pipelining/jars/netty-http-pipelining-1.1.4.jar, /Users/Messi/.ivy2/cache/com.typesafe.play/play-doc_2.11/jars/play-doc_2.11-1.2.2.jar, /Users/Messi/.ivy2/cache/org.pegdown/pegdown/jars/pegdown-1.4.0.jar, /Users/Messi/.ivy2/cache/org.parboiled/parboiled-java/bundles/parboiled-java-1.1.5.jar, /Users/Messi/.ivy2/cache/org.parboiled/parboiled-core/bundles/parboiled-core-1.1.5.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm/jars/asm-4.1.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm-tree/jars/asm-tree-4.1.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm-analysis/jars/asm-analysis-4.1.jar, /Users/Messi/.ivy2/cache/org.ow2.asm/asm-util/jars/asm-util-4.1.jar, /Users/Messi/.ivy2/cache/commons-io/commons-io/jars/commons-io-2.4.jar),Some(/Users/Messi/.ivy2/cache/com.typesafe.play/play-omnidoc_2.11/jars/play-omnidoc_2.11-2.4.2.jar),List(),9000,0.0.0.0,DefaultWatchService,List(/Users/Messi/Development/activator-1.3.5-minimal/catDB/public, /Users/Messi/Development/activator-1.3.5-minimal/catDB/conf, /Users/Messi/Development/activator-1.3.5-minimal/catDB/app),/Users/Messi/Development/activator-1.3.5-minimal/catDB/target,500,root/playForkNotifyStart,root/playForkReload,300000,play.core.server.DevServerStart)
-Total time: 1 s, completed Jul 16, 2015 10:14:34 PM
+Running task... Cancel: sbt.server.ServerTaskCancellation@3ed3a9d6, check cycles: false
+Total time: 1 s, completed Jul 16, 2015 10:46:10 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> root/playForkNotifyStart http://localhost:9000
+Evaluating tasks: *:playForkNotifyStart
+Running task... Cancel: sbt.server.ServerTaskCancellation@5acb8562, check cycles: false
+Total time: 0 s, completed Jul 16, 2015 10:46:12 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@57d871ac, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/application.conf,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/application.conf)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/evolutions,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/evolutions)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/logback.xml,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/logback.xml)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/routes,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/routes)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/evolutions/default,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/evolutions/default)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/evolutions/default/1.sql,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 2 s, completed Jul 16, 2015 10:46:19 PM
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@bbc8d0a, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set()
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set()
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set()
+
+Copy resource mappings: 
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/application.conf,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/application.conf)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/evolutions,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/evolutions)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/logback.xml,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/logback.xml)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/routes,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/routes)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/evolutions/default,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/evolutions/default)
+	(/Users/Messi/Development/activator-1.3.5-minimal/catDB/conf/evolutions/default/1.sql,/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/evolutions/default/1.sql)
+Total time: 1 s, completed Jul 16, 2015 10:46:27 PM
 > server-post-command-cleanup
 > server-handle-next-server-request
