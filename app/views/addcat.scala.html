@@ -1,0 +1,49 @@
+
+
+@(catForm: Form[Cat])
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.render) } 
+
+
+
+        @main("Cats Database"){
+        
+        <h2> Add new cat </h2>
+        
+        @form(routes.Application.newCat(),'enctype -> "multipart/form-data"){
+        
+         <fieldset>
+        
+            @inputText(catForm("name"), '_label -> "Name of cat")
+            @inputText(catForm("color"), '_label -> "Color")
+            @inputText(catForm("race"), '_label -> "Race")
+            @select(
+                catForm("gender"), 
+                options= Seq("Male"->"Male","Female"->"Female"), 
+                '_label -> "Gender",
+                '_showConstraints -> false
+            )
+            
+                        
+            @inputFile(catForm("picture"), '_label -> "Upload picture")
+            
+            
+
+        </fieldset>
+        
+        <div class = "actions">
+            
+            <input type="submit" value="Save" class="btn primary"> 
+            
+        </div>
+        
+            
+        
+
+        }
+        
+    }
+
+           

@@ -1,0 +1,70 @@
+
+
+@(id: Long, catForm: Form[Cat])
+
+@import helper._
+
+@implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.render) } 
+
+
+
+        @main("Cats Database"){
+        
+        <h2> edit cat data</h2>
+        
+        @form(routes.Application.updateCat(id),'enctype -> "multipart/form-data"){
+        
+         <fieldset>
+        
+            @inputText(catForm("name"), '_label -> "Name of cat")
+            @inputText(catForm("color"), '_label -> "Color")
+            @inputText(catForm("race"), '_label -> "Race")
+            @select(
+                catForm("gender"), 
+                options= Seq("Male"->"Male","Female"->"Female"), 
+                '_label -> "Gender",
+                '_showConstraints -> false
+            )
+            
+          <!--  @inputText(catForm("fileName"), '_label -> "loaded image",'readonly->"readonly")             -->
+            @inputFile(catForm("picture"), '_label -> "Upload new picture")
+            
+           
+
+        </fieldset>
+        
+        <div class = "actions">
+            
+            <input type="submit" value="Save" class="btn primary"> or 
+            <a href="@routes.Application.cats()" class="btn">Cancel</a> 
+            
+        </div>
+            
+        
+        
+        
+        
+    <!--                @inputText(catForm("name"))
+
+                    @inputText(catForm("color"))
+
+                    @inputText(catForm("race"))
+                    
+                    @inputFile(catForm("picture"))
+                    
+                    
+                  <!--  @inputText(catForm("gender")) 
+                    
+                    @inputRadioGroup(
+                        catForm("gender"),
+                        options = Seq("Male"->"Male","Female"->"Female"))
+
+                 <!-- <input type="submit" value="Create"> 
+        
+         <input type="submit" value="Save" class="btn primary"> or 
+            <a href="@routes.Application.cats()" class="btn">Cancel</a> -->
+        }
+        
+    }
+
+           
