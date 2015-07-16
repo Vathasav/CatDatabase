@@ -1,29 +1,37 @@
-New log file opened at Thu Jul 16 21:22:56 EEST 2015 by 11980@Tamperes-MacBook-Pro.local
-Taking next connection to: 49944
-New client attempting to connect on port: 49945-49944
-  Address = /192.168.0.101:49944
-This client on port 49945 has uuid 34f73e6e-c5ad-414a-a960-edb6efdfd9d0 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-34f73e6e-c5ad-414a-a960-edb6efdfd9d0
-Taking next connection to: 49944
-New client attempting to connect on port: 49951-49944
-  Address = /192.168.0.101:49944
-Handshake exception on socket: 49951
-sbt.impl.ipc.HandshakeException: Unable to perform handshake
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
-	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
-	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
-Caused by: java.net.SocketException: Connection reset
-	at java.net.SocketInputStream.read(SocketInputStream.java:189)
-	at java.net.SocketInputStream.read(SocketInputStream.java:121)
-	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
-	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
-	at java.io.DataInputStream.readInt(DataInputStream.java:387)
-	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
-	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
-	... 2 more
-Taking next connection to: 49944
-New client attempting to connect on port: 49952-49944
-  Address = /192.168.0.101:49944
-This client on port 49952 has uuid 563cf3bf-aaab-4bd2-8061-bd3f26b9e6f6 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-34f73e6e-c5ad-414a-a960-edb6efdfd9d0, play-fork-run-563cf3bf-aaab-4bd2-8061-bd3f26b9e6f6
-Taking next connection to: 49944
+New log file opened at Thu Jul 16 21:37:51 EEST 2015 by 12078@Tamperes-MacBook-Pro.local
+Taking next connection to: 50061
+New client attempting to connect on port: 50062-50061
+  Address = /192.168.0.101:50061
+This client on port 50062 has uuid 1bd2b56f-df23-4edb-b8b3-c3d652743d94 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-1bd2b56f-df23-4edb-b8b3-c3d652743d94
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
+Checking to see if clients are empty...
+We have 1 non-daemon clients, continuing serving connections.
+Taking next connection to: 50061
