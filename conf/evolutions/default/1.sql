@@ -11,7 +11,6 @@ create table cat (
   gender                    integer,
   picture                   blob,
   image_file                blob,
-  file_name                 varchar(255),
   constraint ck_cat_gender check (gender in (0,1)),
   constraint pk_cat primary key (id))
 ;

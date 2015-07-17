@@ -9,9 +9,12 @@
         @main("Cats Database"){
         
         
-          <h1 class="main" align="center"> Cat database</h1>
+        <h1 class="main" align="center"> Cat database</h1>
         
-            <table class="computers zebra-striped" style="width:100%">
+        <!-- Used bootstrap container -->
+        <div class = "container" >
+	   
+        <table class="computers zebra-striped" >
             <thead>
                 <tr>
                     <th>Cat name </th>
@@ -22,33 +25,39 @@
                     
                 </tr>
             </thead>
+            
+            <!-- for each cat display its name, color, race, gender and picture (if available) -->
             <tbody>
-
                 @for(cat <- cats) {
                     <tr>
                         <td>@cat.name</td>
-                        <td>@cat.color
-                            
-                        </td>
+
+                        <td>@cat.color </td>
+
                         <td>@cat.race </td>
+
                         <td>@cat.gender</td>
+
                         <td>
                             @if(cat.picture == null) {
                                 <em>-</em>
                             } else {
                                 <img src="@routes.Application.getImage(cat.id)" width="80" height="80">  
-                                }
+                            }
                         </td>
-                        <td> @form(routes.Application.editCat(cat.id)){
-                   <input type="submit" value="Edit">
-                 }
-                 </td>
+
+                        <td>
+                            @form(routes.Application.editCat(cat.id)){
+                                <input type="submit" value="Edit" class="btn primary">
+                            }
+                        </td>
 
 
-                <td>
-              @form(routes.Application.deleteCat(cat.id)){
-                 <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete?')">
-                 }</td>
+                        <td>
+                            @form(routes.Application.deleteCat(cat.id)){
+                                <input type="submit" value="Delete" class="btn primary" onclick="return confirm('Are you sure you want to delete?')">
+                            }
+                        </td>
                         
                     </tr>
                 }
@@ -56,63 +65,19 @@
             </tbody>
         </table>
 
-        <!--   @for(cat <- cats){
-
-             <li>
-              @cat.name
-
-              @cat.color
-
-              @cat.race
-
-              @cat.gender
-              
-              @if(cat.picture != null){
-              <img src="@routes.Application.getImage(cat.id)" width="16" height="16">
-              }
-              
-              
-
-              @form(routes.Application.editCat(cat.id)){
-                   <input type="submit" value="Edit">
-                 }
-
-
-
-              @form(routes.Application.deleteCat(cat.id)){
-                 <input type="submit" value="Delete" onclick="return confirm('Are you sure you want to delete?')">
-                 }
-             </li>
-           } -->
-
      
         
         <div>
          
-            <a class="btn success" id="add" href="@routes.Application.create()">Add a new cat</a>   
+            <a class="btn primary" id="add" href="@routes.Application.create()">Add a new cat</a>   
             
         </div>
-    
-    <!--     
-         
+        
+        </div>
+        
 
-              @helper.form(routes.Application.create(),'enctype -> "multipart/form-data"){
-              
-                    @helper.inputText(catForm("name"))
-
-                    @helper.inputText(catForm("color"))
-
-                    @helper.inputText(catForm("race"))
-                    
-                    @helper.inputFile(catForm("picture"))
-                    
-
-                    @helper.inputRadioGroup(
-                        catForm("gender"),
-                        options = Seq("Male"->"Male","Female"->"Female"))
-
-                <input type="submit" value="Create">
-                } -->
         }
+        
+
 
 

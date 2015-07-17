@@ -1,7 +1,8 @@
 @(elements: helper.FieldElements)
 
 @**************************************************
-* Generate input according twitter bootsrap rules *
+* Generate input according twitter bootsrap rules 
+  adapted from play samples                       *
 **************************************************@
 <div class="clearfix @if(elements.hasErrors) {error}">
     <label for="@elements.id">@elements.label</label>
@@ -9,4 +10,4 @@
         @elements.input
         <span class="help-inline">@elements.infos.mkString(", ")</span> 
     </div>
-</div>
+</div> 

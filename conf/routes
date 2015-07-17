@@ -5,17 +5,24 @@
 # Home page
 GET     /                           controllers.Application.index()
 
-#Cats pages
+#list of cats
 GET     /cats                       controllers.Application.cats()
-POST    /cats                       controllers.Application.newCat()
-POST    /cats/:id/delete            controllers.Application.deleteCat(id: Long)
-POST    /                           controllers.Application.upload()
-GET     /cats/new                   controllers.Application.create()
 
-# Edit existing cat information
-GET     /cats/:id              controllers.Application.editCat(id:Long)
-POST    /cats/:id              controllers.Application.updateCat(id:Long)
-GET     /getImage              controllers.Application.getImage(id: Long)
+#Add cat 
+GET     /cats/new                   controllers.Application.create()
+POST    /cats                       controllers.Application.newCat()
+
+#Edit existing cat information
+GET     /cats/:id                   controllers.Application.editCat(id:Long)
+POST    /cats/:id                   controllers.Application.updateCat(id:Long)
+
+
+#Delete a cat
+POST    /cats/:id/delete            controllers.Application.deleteCat(id: Long)
+
+
+# Obtain cat image
+GET     /getImage                   controllers.Application.getImage(id: Long)
 
 
 # Map static resources from the /public folder to the /assets URL path

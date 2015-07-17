@@ -7,18 +7,38 @@
 @implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.render) } 
 
 
-
-        @main("Cats Database"){
+    @main("Cats Database"){
+        
+        <div class = "container">
+        
+        <!-- Form to add new cat into database -->
         
         <h2> Add new cat </h2>
         
         @form(routes.Application.newCat(),'enctype -> "multipart/form-data"){
         
-         <fieldset>
-        
-            @inputText(catForm("name"), '_label -> "Name of cat")
-            @inputText(catForm("color"), '_label -> "Color")
-            @inputText(catForm("race"), '_label -> "Race")
+         
+            @inputText(catForm("name"), '_label -> "Name of cat",'_help->"No digits or spaces in name")
+       
+       <!-- select color, race and gender from drop-down list -->    
+         
+            @select(
+                catForm("color"), 
+                options = options(Cat.colors),
+                '_default -> "--- Choose a cat color ---",
+                '_label -> "Color",
+                '_error -> catForm("race").error.map(_.withMessage("Please select cat's color"))
+            )
+            
+            <!-- select race from dropdpwn list -->
+            @select(
+                catForm("race"), 
+                options = options(Cat.catBreedsList),
+                '_default -> "--- Choose a cat race ---",
+                '_label -> "Race",
+                '_error -> catForm("race").error.map(_.withMessage("Please select cat's race"))
+            )
+            
             @select(
                 catForm("gender"), 
                 options= Seq("Male"->"Male","Female"->"Female"), 
@@ -29,20 +49,19 @@
                         
             @inputFile(catForm("picture"), '_label -> "Upload picture")
             
+         
+            <div >
             
-
-        </fieldset>
-        
-        <div class = "actions">
+                <input type="submit" value="Create" class="btn primary"> 
             
-            <input type="submit" value="Save" class="btn primary"> 
-            
-        </div>
+            </div>
         
             
         
 
         }
+        
+        
         
     }
 

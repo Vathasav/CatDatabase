@@ -1,24 +1,44 @@
 
 
-@(id: Long, catForm: Form[Cat])
+@(cat: Cat, catForm: Form[Cat])
 
 @import helper._
 
 @implicitFieldConstructor = @{ FieldConstructor(twitterBootstrapInput.render) } 
 
-
-
-        @main("Cats Database"){
+    @main("Cats Database"){
+        
+      <div class = "container">
+        
+        <!-- Form to add new cat into database -->
         
         <h2> edit cat data</h2>
         
-        @form(routes.Application.updateCat(id),'enctype -> "multipart/form-data"){
+        @form(routes.Application.updateCat(cat.id),'enctype -> "multipart/form-data"){
         
-         <fieldset>
         
-            @inputText(catForm("name"), '_label -> "Name of cat")
-            @inputText(catForm("color"), '_label -> "Color")
-            @inputText(catForm("race"), '_label -> "Race")
+            @inputText(catForm("name"), '_label -> "Name of cat",'_help->"No digits or spaces in name")
+           
+           
+           <!-- select color, race and gender from drop-down list --> 
+            
+            @select(
+                catForm("color"), 
+                options = options(Cat.colors),
+                '_default -> "--- Choose a cat color ---",
+                '_label -> "Color",
+                '_error -> catForm("race").error.map(_.withMessage("Please select cat's color"))
+            )
+            
+            @select(
+                catForm("race"), 
+                options = options(Cat.catBreedsList),
+                '_default -> "--- Choose a cat race ---",
+                '_label -> "Race",
+                '_error -> catForm("race").error.map(_.withMessage("Please select cat's race"))
+            )
+            
+    
             @select(
                 catForm("gender"), 
                 options= Seq("Male"->"Male","Female"->"Female"), 
@@ -26,44 +46,36 @@
                 '_showConstraints -> false
             )
             
-          <!--  @inputText(catForm("fileName"), '_label -> "loaded image",'readonly->"readonly")             -->
-            @inputFile(catForm("picture"), '_label -> "Upload new picture")
-            
-           
-
-        </fieldset>
-        
-        <div class = "actions">
-            
-            <input type="submit" value="Save" class="btn primary"> or 
-            <a href="@routes.Application.cats()" class="btn">Cancel</a> 
-            
-        </div>
-            
-        
-        
-        
-        
-    <!--                @inputText(catForm("name"))
-
-                    @inputText(catForm("color"))
-
-                    @inputText(catForm("race"))
+         
+         <!-- if cat has no picture then ask to upload picture
+         other wise show the picture and ask to change existing picture -->
+         
+           @if(cat.picture == null) {
+             
+                @inputFile(catForm("picture"), '_label -> "Upload new picture")
+            } else {
+                
+                <div style = " padding:20px">
+                 
+                    <label for="Existing picture">Existing picture:</label>
                     
-                    @inputFile(catForm("picture"))
-                    
-                    
-                  <!--  @inputText(catForm("gender")) 
-                    
-                    @inputRadioGroup(
-                        catForm("gender"),
-                        options = Seq("Male"->"Male","Female"->"Female"))
-
-                 <!-- <input type="submit" value="Create"> 
+                    <img src="@routes.Application.getImage(cat.id)" width="80" height="80"  border="40" >  
+                </div>
+                                
+                    @inputFile(catForm("picture"), '_label -> "Upload new picture")
+            }
+                
         
-         <input type="submit" value="Save" class="btn primary"> or 
-            <a href="@routes.Application.cats()" class="btn">Cancel</a> -->
+            <div>
+            
+                <input type="submit" value="Save" class="btn primary"> or 
+                <a href="@routes.Application.cats()" class="btn primary">Cancel</a> 
+            
+            </div>
+            
         }
+        
+      </div>
         
     }
 

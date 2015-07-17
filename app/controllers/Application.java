@@ -8,7 +8,7 @@ import play.mvc.Http.MultipartFormData.FilePart;
 
 import views.html.*;
 import models.Cat;
-import com.avaje.ebean.Ebean;
+
 import java.io.*;
 
 public class Application extends Controller {
@@ -19,164 +19,134 @@ public class Application extends Controller {
         return redirect(routes.Application.cats());
     }
 
+    //show front page
     public Result cats(){
         return ok(views.html.index.render(Cat.all(), catForm));
     }
 
 
+    // sends the empty catform
     public Result create(){
-        
+
         Form<Cat> newCatForm = catForm;
         return ok(
-            addcat.render(catForm)
+                addcat.render(catForm)
         );
     }
 
+   //returns the image data for a cat based on its ID
     public Result getImage(long id) {
-        
+
         Cat cat = Cat.find.byId(id);
-        
+
         if (cat != null) {
-            
+
+            flash("success","Picture found");
             /*** here happens the magic ***/
             return ok(cat.picture).as("image");
             /************************** ***/
-            
+
         } else {
             flash("error", "Picture not found.");
-            return redirect(routes.Application.index());
+            return null;//redirect(routes.Application.index());
         }
     }
+    
+    //extracts image data from multipart form and updates the cat object with it
+    private void uploadCatImageData(Cat newCat){
+        
+            //get multi-part data
+            play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
 
+            //get image from picture tag
+            play.mvc.Http.MultipartFormData.FilePart imageFile = body.getFile("picture");
+
+            // check for null and update newCat
+
+            if(imageFile != null){
+
+                File file = imageFile.getFile();
+
+                if(file != null){
+                    newCat.imageFile = file;
+                }
+
+
+            }
+        
+    }
+
+    //handles the creation of new cat
     public Result newCat(){
         Form<Cat> filledForm = catForm.bindFromRequest();
+        
+        //if form has errors return
 
-        Cat newCat = filledForm.get();
         if(filledForm.hasErrors()){
-            return badRequest(views.html.index.render(Cat.all(),filledForm));
+            return badRequest(addcat.render(filledForm));
+        }
+        else if(filledForm.get().color.trim().isEmpty()){
+            return badRequest(addcat.render(filledForm));
         }
         else
         {
-            
-            play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
+            //if form is OK process it 
+            // load image data and save the cat
 
-            play.mvc.Http.MultipartFormData.FilePart imageFile = body.getFile("picture");
+            Cat newCat = filledForm.get();
             
-                   
-              if(imageFile != null){
-
-                File file = imageFile.getFile();
-            
-            
-                
-                
-                if(file != null){
-                newCat.imageFile = file;
-                    
-                newCat.fileName = file.getName();    
-                }
-                
-                
-            }
+            uploadCatImageData(newCat);
             
             Cat.create(newCat);
+            
+            //return to front page
             return redirect(routes.Application.cats());
-        
+
         }
 
     }
 
+    // deletes a cat based on its ID
     public Result deleteCat(Long id){
         Cat.delete(id);
         return redirect(routes.Application.cats());
     }
 
+    // sends the edit form for cat based on its data
     public Result editCat(Long id){
-        
+
         Form<Cat> filledForm = catForm.fill(Cat.find.byId(id));
-       
-        
+
+
         return ok(
-            editcat.render(id, filledForm)
+                editcat.render(Cat.find.byId(id), filledForm)
         );
-        
-       // return TODO;
+
+       
     }
-    
-     public  Result updateCat(Long id) {
+
+    //updates the cat information based on modified data
+    public  Result updateCat(Long id) {
         Form<Cat> filledForm = catForm.bindFromRequest();
+       
+        // if form is error-prone then send bad request
         if(filledForm.hasErrors()) {
-            return badRequest(editcat.render(id, filledForm));
+            return badRequest(editcat.render(Cat.find.byId(id), filledForm));
+        }
+        else{
+            
+            //process the form and update cat data
+            
+            Cat catFromForm = filledForm.get();
+            uploadCatImageData(catFromForm);
+            
+            // save cat information to DB
+            Cat.save(id,catFromForm);
+            
+            return redirect(routes.Application.cats());
         }
         
-        Cat catFromDB = Ebean.find(Cat.class, id);
-        
-        Cat catFromForm = filledForm.get();
-        
-            catFromDB.name = catFromForm.name;
-            catFromDB.color = catFromForm.color;
-            catFromDB.race = catFromForm.race;
-            catFromDB.gender = catFromForm.gender;
-            
-            play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
-
-            play.mvc.Http.MultipartFormData.FilePart imageFile = body.getFile("picture");
-            
-                   
-              if(imageFile != null){
-
-                File file = imageFile.getFile();
-            
-            
-                
-                
-                if(file != null){
-                catFromDB.imageFile = file;
-                    
-                catFromDB.fileName = file.getName();    
-                }
-                
-                Cat.fillImageData(catFromDB)   ; 
-                
-            }
-        
-          
-        Ebean.update(catFromDB);
-
-        Cat updatedBudget = Ebean.find(Cat.class, id);
-     //   assertThat(updatedBudget.id).isEqualTo(id);
-       
-    
-        
-          /*  Cat catFromDB = Cat.find.byId(id);
-            catFromDB.name = filledForm.get("name");
-            catFromDB.color = filledForm.get("color");
-            catFromDB.race = filledForm.get("race");
-            catFromDB.gender = filledForm.get("gender");
-            catFromDB.picture = filledForm.get("picture");*/
-            
-          
-
-      //  Cat catFromDB = filledForm.get();
-    //    Cat.find.ref(id).update(catFromDB.class);
-       // catFromDB..update(catFromDB.id.toString());
-        
-//        filledForm.get().update(id);
-        flash("success", "Cat " + filledForm.get().name + " has been updated");
-        return redirect(routes.Application.cats());
     }
-    
-    public Result upload() {
-    play.mvc.Http.MultipartFormData body = request().body().asMultipartFormData();
-    play.mvc.Http.MultipartFormData.FilePart picture = body.getFile("picture");
-    if (picture != null) {
-        String fileName = picture.getFilename();
-        String contentType = picture.getContentType();
-        java.io.File file = picture.getFile();
-        return ok("File uploaded");
-    } else {
-        flash("error", "Missing file");
-        return badRequest();
-    }
-}
+
+
 }
