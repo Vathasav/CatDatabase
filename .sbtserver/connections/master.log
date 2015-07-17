@@ -1,13 +1,13 @@
-New log file opened at Fri Jul 17 18:15:30 EEST 2015 by 13672@dyn-179-215.public.tut.fi
-Taking next connection to: 56084
-New client attempting to connect on port: 56085-56084
-  Address = /130.230.179.215:56084
-This client on port 56085 has uuid 27560e1c-2e5c-4ccc-9bad-01199d3f928d configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-27560e1c-2e5c-4ccc-9bad-01199d3f928d
-Taking next connection to: 56084
-New client attempting to connect on port: 56086-56084
-  Address = /130.230.179.215:56084
-Handshake exception on socket: 56086
+New log file opened at Fri Jul 17 21:09:06 EEST 2015 by 14191@Tamperes-MacBook-Pro.local
+Taking next connection to: 57754
+New client attempting to connect on port: 57755-57754
+  Address = /192.168.0.101:57754
+This client on port 57755 has uuid 78ebaa41-7d19-44f3-812d-859fe8a0d644 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-78ebaa41-7d19-44f3-812d-859fe8a0d644
+Taking next connection to: 57754
+New client attempting to connect on port: 57756-57754
+  Address = /192.168.0.101:57754
+Handshake exception on socket: 57756
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -17,15 +17,15 @@ Caused by: java.io.EOFException
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 56084
-New client attempting to connect on port: 56087-56084
-  Address = /130.230.179.215:56084
-This client on port 56087 has uuid 2f4f9ce4-37a9-49a0-ad70-9c86aedc1f22 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
-Connected Clients: activator-27560e1c-2e5c-4ccc-9bad-01199d3f928d, activator-2f4f9ce4-37a9-49a0-ad70-9c86aedc1f22
-Taking next connection to: 56084
-New client attempting to connect on port: 56098-56084
-  Address = /130.230.179.215:56084
-Handshake exception on socket: 56098
+Taking next connection to: 57754
+New client attempting to connect on port: 57757-57754
+  Address = /192.168.0.101:57754
+This client on port 57757 has uuid 20b6f04c-96c4-4530-b5c4-7ee3296e92a3 configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-78ebaa41-7d19-44f3-812d-859fe8a0d644, activator-20b6f04c-96c4-4530-b5c4-7ee3296e92a3
+Taking next connection to: 57754
+New client attempting to connect on port: 57762-57754
+  Address = /192.168.0.101:57754
+Handshake exception on socket: 57762
 sbt.impl.ipc.HandshakeException: Unable to perform handshake
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
 	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
@@ -39,55 +39,12 @@ Caused by: java.net.SocketException: Connection reset
 	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
 	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
 	... 2 more
-Taking next connection to: 56084
-New client attempting to connect on port: 56099-56084
-  Address = /130.230.179.215:56084
-This client on port 56099 has uuid cf90e1fb-fefe-459a-83f1-42d819b56ddf configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: activator-2f4f9ce4-37a9-49a0-ad70-9c86aedc1f22, play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf
-Taking next connection to: 56084
+Taking next connection to: 57754
+New client attempting to connect on port: 57763-57754
+  Address = /192.168.0.101:57754
+This client on port 57763 has uuid 96d061ca-c6e7-4d03-98fa-a77c6edb3879 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: activator-20b6f04c-96c4-4530-b5c4-7ee3296e92a3, play-fork-run-96d061ca-c6e7-4d03-98fa-a77c6edb3879
+Taking next connection to: 57754
 Checking to see if clients are empty...
 We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-We have 1 non-daemon clients, continuing serving connections.
-Taking next connection to: 56084
-Checking to see if clients are empty...
-No non-daemon clients connected after 3 min. Shutting down.
-1 daemon clients are connected.
-Server socket thread exiting.
-1 clients open, will close them...
-All client sockets have been closed.
-Closing the 13672@dyn-179-215.public.tut.fi logs at Fri Jul 17 18:58:56 EEST 2015, goodbye.
+Taking next connection to: 57754

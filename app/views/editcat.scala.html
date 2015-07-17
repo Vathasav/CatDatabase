@@ -50,9 +50,16 @@
          <!-- if cat has no picture then ask to upload picture
          other wise show the picture and ask to change existing picture -->
          
+         <!-- accept only images -->
            @if(cat.picture == null) {
-             
-                @inputFile(catForm("picture"), '_label -> "Upload new picture")
+               
+                <div style = " padding:20px">
+                 
+                    <label for="Upload new picture">Upload new picture:</label>
+                    
+                    <input type="file" name= "picture" accept="image/*">
+                </div>
+                
             } else {
                 
                 <div style = " padding:20px">
@@ -61,8 +68,15 @@
                     
                     <img src="@routes.Application.getImage(cat.id)" width="80" height="80"  border="40" >  
                 </div>
-                                
-                    @inputFile(catForm("picture"), '_label -> "Upload new picture")
+                
+                <div style = " padding:20px">
+                 
+                    <label for="Upload new picture">Upload new picture:</label>
+                    
+                    <input type="file" name= "picture" accept="image/*">
+                </div>
+                
+                    
             }
                 
         

@@ -46,10 +46,16 @@
                 '_showConstraints -> false
             )
             
-                        
-            @inputFile(catForm("picture"), '_label -> "Upload picture")
+            <!-- accept only images -->
+            <div style = " padding:20px">
+                 
+                    <label for="Upload new picture">Upload new picture:</label>
+                    
+                    <input type="file" name= "picture" accept="image/*">
+            </div>
+                
+                
             
-         
             <div >
             
                 <input type="submit" value="Create" class="btn primary"> 

@@ -1,0 +1,26 @@
+New log file opened at Fri Jul 17 21:09:17 EEST 2015 by 14191@Tamperes-MacBook-Pro.local
+Sending msg to client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644: DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /Users/Messi/Development/activator-1.3.5-minimal/catDB/.sbtserver/connections/master.log))
+Sending msg to client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644: DetachedLogEvent(LogMessage(debug,sbt client logs are in: /Users/Messi/Development/activator-1.3.5-minimal/catDB/.sbtserver/connections/activator-78ebaa41-7d19-44f3-812d-859fe8a0d644.log))
+Reading next message from client.
+Client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644 closed, java.net.SocketException: Connection reset, shutting down
+Stopping client.
+Dropping message DetachedLogEvent(LogMessage(debug,sbt server socket logs are in: /Users/Messi/Development/activator-1.3.5-minimal/catDB/.sbtserver/connections/master.log)) because client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644 of an exception serializing and sending: java.net.SocketException: Broken pipe
+stack trace sending message was 
+java.net.SocketException: Broken pipe
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:109)
+	at java.net.SocketOutputStream.write(SocketOutputStream.java:153)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at java.io.DataOutputStream.flush(DataOutputStream.java:123)
+	at sbt.impl.ipc.Peer.send(IPC.scala:79)
+	at sbt.impl.ipc.Peer.send(IPC.scala:83)
+	at sbt.impl.ipc.Peer.sendString(IPC.scala:106)
+	at sbt.impl.ipc.Peer.sendJson(IPC.scala:119)
+	at sbt.server.SbtClientHandler$$anonfun$send$1.apply$mcV$sp(SbtClientHandler.scala:128)
+	at sbt.server.SbtClientHandler.wrappedSend(SbtClientHandler.scala:113)
+	at sbt.server.SbtClientHandler.send(SbtClientHandler.scala:128)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:91)
+Dropping message DetachedLogEvent(LogMessage(debug,sbt general server logs are in: /Users/Messi/Development/activator-1.3.5-minimal/catDB/.sbtserver/master.log)) to dead client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644
+Dropping message (0,ReceivedResponse()) to dead client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644
+Client activator-78ebaa41-7d19-44f3-812d-859fe8a0d644 thread exiting.
