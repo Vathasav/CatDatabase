@@ -1,4 +1,9 @@
-This is your new Play application
+This is CAT DATABASE Play application
 =================================
 
-This file will be packaged with your application, when using `activator dist`.
+Application allows to manage cat information in the database.
+
+1. It supports adding a new cat to database with features (name, race, gender, picture).
+2. Allows editing of cat data.
+3. A cat can be completely deleted from the database
+
