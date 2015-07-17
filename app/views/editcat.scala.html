@@ -33,9 +33,9 @@
             @select(
                 catForm("race"), 
                 options = options(Cat.catBreedsList),
-                '_default -> "--- Choose a cat race ---",
-                '_label -> "Race",
-                '_error -> catForm("race").error.map(_.withMessage("Please select cat's race"))
+                '_default -> "--- Choose a cat breed ---",
+                '_label -> "Breed",
+                '_error -> catForm("race").error.map(_.withMessage("Please select cat's breed"))
             )
             
     

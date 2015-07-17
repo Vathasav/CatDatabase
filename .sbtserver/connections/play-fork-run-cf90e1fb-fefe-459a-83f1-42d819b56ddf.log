@@ -10651,3 +10651,7 @@ Sending msg to client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf: Backgr
 Sending msg to client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf: BackgroundJobLogEvent(1,LogMessage(warn,- application - application.conf @ file:/Users/Messi/Development/activator-1.3.5-minimal/catDB/target/scala-2.11/classes/application.conf: 43: applyEvolutions.default is deprecated, use play.evolutions.db.default.autoApply instead))
 Sending msg to client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf: BackgroundJobLogEvent(1,LogMessage(info,- play.api.libs.concurrent.ActorSystemProvider - Starting application default Akka system: application))
 Sending msg to client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf: BackgroundJobLogEvent(1,LogMessage(info,- play.api.Play - Application started (Dev)))
+Client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf closed, java.net.SocketException: Socket closed, shutting down
+Client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf thread exiting.
+Dropping message (0,ReceivedResponse()) to dead client play-fork-run-cf90e1fb-fefe-459a-83f1-42d819b56ddf
+Closing the 13672@dyn-179-215.public.tut.fi logs at Fri Jul 17 18:58:55 EEST 2015, goodbye.
